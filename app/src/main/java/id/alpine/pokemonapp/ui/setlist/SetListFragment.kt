@@ -64,7 +64,6 @@ class SetListFragment : Fragment() {
     }
 
     private fun toggleLoading(loading: Boolean) {
-        debug(loading.toString())
         srlSet.isRefreshing = loading
     }
 
